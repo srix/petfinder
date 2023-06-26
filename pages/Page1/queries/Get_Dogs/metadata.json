@@ -41,6 +41,10 @@
         {
           "key": "distance",
           "value": "50"
+        },
+        {
+          "key": "breed",
+          "value": "{{DogBreeds.selectedOptionValues.toString()}}"
         }
       ],
       "bodyFormData": [],
@@ -65,12 +69,16 @@
       },
       {
         "key": "queryParameters[3].value"
+      },
+      {
+        "key": "queryParameters[5].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "DogBreeds.selectedOptionValues.toString()",
       "DogGender.selectedValues.toString()",
       "DogSize.selectedValues.toString()",
       "Location.center.lat + \",\" + Location.center.long "
