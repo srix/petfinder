@@ -9,7 +9,10 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#D9E7FF",
-  "icon": "music",
+  "icon": "heart",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
