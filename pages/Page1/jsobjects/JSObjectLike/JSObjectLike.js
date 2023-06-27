@@ -1,7 +1,7 @@
 export default {
 
 	likedResultsData: [],
-	likedAnimalIds: [64901808],
+	likedAnimalIds: [],
 
 	// isLiked: ( id) => {
 		// return this.likedAnimalIds.includes(id)

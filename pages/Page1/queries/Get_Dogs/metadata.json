@@ -44,7 +44,7 @@
         },
         {
           "key": "breed",
-          "value": "{{DogBreeds.selectedOptionValues.toString()}}"
+          "value": "{{!(DogBreeds.selectedOptionValues.toString()) ? \"Pug,Golden Retriever,Pomeranian\" : DogBreeds.selectedOptionValues.toString()}}"
         }
       ],
       "bodyFormData": [],
@@ -78,12 +78,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "DogBreeds.selectedOptionValues.toString()",
+      "!(DogBreeds.selectedOptionValues.toString()) ? \"Pug,Golden Retriever,Pomeranian\" : DogBreeds.selectedOptionValues.toString()",
       "DogGender.selectedValues.toString()",
       "DogSize.selectedValues.toString()",
       "Location.center.lat + \",\" + Location.center.long "
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
