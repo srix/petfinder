@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObjectLike",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "likedResultsData",
+        "value": "[]"
+      },
+      {
+        "name": "likedAnimalIds",
+        "value": "[64901808]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObjectLike",
+  "deleted": false,
+  "gitSyncId": "64997da95148951fb1edac5c_6499f1f55148951fb1edb77c"
+}
