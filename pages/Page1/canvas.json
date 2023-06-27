@@ -61,7 +61,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Petsmith",
+              "text": "Dogsmith",
               "key": "5zhycjx6kj",
               "isDeprecated": false,
               "rightColumn": 53,
@@ -1659,7 +1659,7 @@
                           "key": "buttonColor"
                         }
                       ],
-                      "text": "Find my Pet",
+                      "text": "Find me a Dog",
                       "isDisabled": false,
                       "key": "hf0dbekzmq",
                       "isDeprecated": false,
